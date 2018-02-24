@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/saber
+   */site-packages/saber
+
+[run]
+branch = true
+source =
+    saber
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
